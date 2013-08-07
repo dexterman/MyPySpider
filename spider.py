@@ -12,6 +12,8 @@ documents_url = r'http://project.excellence.com.cn/redmine/projects/expass/docum
 # 文件
 files_url = r'http://project.excellence.com.cn/redmine/projects/expass/files'
 
+back_url = r'http://project.excellence.com.cn/redmine/',
+
 username = 'dengq'
 password = r'415Egk\\789'
 
@@ -32,7 +34,7 @@ def SignIn():
 	    'username': username,
 	    'password': password,
 	    'authenticity_token': '3560c8ad94e931cb953473ecd614632ed489f6e9',
-	    'back_url': 'http://project.excellence.com.cn/redmine/',
+	    'back_url': back_url,
 	    'login': '登录 »'
 	})
 	# 伪装成浏览器访问
