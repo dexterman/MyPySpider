@@ -6,14 +6,14 @@ import cookielib
 from bs4 import BeautifulSoup
 
 # 登录
-signin_url = r'http://project.excellence.com.cn/redmine/login'
+signin_url = r'http://project.***.com.cn/redmine/login'
 # 文档
-documents_url = r'http://project.excellence.com.cn/redmine/projects/expass/documents'
+documents_url = r'http://project.***.com.cn/redmine/projects/expass/documents'
 # 文件
-files_url = r'http://project.excellence.com.cn/redmine/projects/expass/files'
+files_url = r'http://project.***.com.cn/redmine/projects/expass/files'
 
-username = 'dengq'
-password = r'415Egk\\789'
+username = ''
+password = r''
 
 
 def SignIn():
